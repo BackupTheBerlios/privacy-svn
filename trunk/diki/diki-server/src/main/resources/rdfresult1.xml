@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+        This file is part of Diki.
+
+        Copyright (C) 2009 jtheuer
+        Please refer to the documentation for a complete list of contributors
+
+        Diki is free software: you can redistribute it and/or modify
+        it under the terms of the GNU General Public License as published by
+        the Free Software Foundation, either version 3 of the License, or
+        (at your option) any later version.
+
+        Diki is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        GNU General Public License for more details.
+
+        You should have received a copy of the GNU General Public License
+        along with Diki.  If not, see <http://www.gnu.org/licenses/>.
+
+-->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+	<rdf:Description rdf:about="xmpp:dikibot@v-tml.uni-muenster.de/">
+		<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent" />
+		<foaf:knows rdf:resource="xmpp:jtheuer@jabber.ccc.de/"/>
+		<foaf:name>dikibot</foaf:name>
+		
+	</rdf:Description>
+
+	<rdf:Description rdf:about="xmpp:jtheuer@jabber.ccc.de/">
+		<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://esperanto.example.com">
+		<title xmlns="http://purl.org/dc/elements/1.1/">Esperanto News</title>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://esperanto.example.com">
+		<description xmlns="http://purl.org/dc/elements/1.1/">german information technology news. Including politics and open-source</description>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://example.com/post/bbf9b0339a070080a3668c9cb6158ecf">
+		<rdf:type rdf:resource="http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tagging" />
+		<taggedResource xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/" rdf:resource="http://heise.de" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://example.com/post/bbf9b0339a070080a3668c9cb6158ecf">
+		<associatedTag xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/" rdf:resource="http://example.com/tag/news" />
+		<associatedTag xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/" rdf:resource="http://example.com/tag/fusel" />
+		<associatedTag xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/" rdf:resource="http://example.com/tag/it" />
+		<taggedBy xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/" rdf:resource="xmpp:foo@v-tml.uni-muenster.de/" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="xmpp:dikibot1@v-tml.uni-muenster.de/tagging/1">
+		<associatedTag xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/" rdf:resource="http://example.com/tag/news" />
+		<associatedTag xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/" rdf:resource="http://example.com/tag/demotag" />
+		<taggedBy xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/" rdf:resource="xmpp:dikibot1@v-tml.uni-muenster.de/" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://example.com/tag/demotag">
+		<rdf:type rdf:resource="http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag" />
+		<name xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/">demotag</name>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://example.com/tag/fusel">
+		<rdf:type rdf:resource="http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag" />
+		<name xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/">esperanto</name>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://example.com/tag/it">
+		<rdf:type rdf:resource="http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag" />
+		<name xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/">it</name>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://example.com/tag/news">
+		<rdf:type rdf:resource="http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag" />
+		<name xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/">news</name>
+	</rdf:Description>
+
+</rdf:RDF>

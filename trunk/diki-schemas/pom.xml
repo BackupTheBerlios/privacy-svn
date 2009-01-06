@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<parent>
+		<artifactId>diki</artifactId>
+		<groupId>de.jtheuer.diki</groupId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>de.jtheuer.diki</groupId>
+	<artifactId>diki-schemas</artifactId>
+	<name>diki-schemas</name>
+	<version>1.0-SNAPSHOT</version>
+	<url>http://maven.apache.org</url>
+	<scm>
+		<developerConnection>scm:svn:svn+ssh://cvsifgi/export/svn/ThesisHeuer/diki-schemas</developerConnection>
+  	</scm>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>build-helper-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>add-source</id>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>add-source</goal>
+						</goals>
+						<configuration>
+							<sources>
+								<source>src/main/elmo</source>
+							</sources>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.openrdf.elmo</groupId>
+			<version>1.3</version>
+			<artifactId>elmo-owl</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.openrdf.elmo</groupId>
+			<version>1.3</version>
+			<artifactId>elmo-foaf</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.openrdf.elmo</groupId>
+			<artifactId>elmo-sesame</artifactId>
+			<version>1.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.openrdf.elmo</groupId>
+			<artifactId>elmo-rss</artifactId>
+			<version>1.3</version>
+		</dependency>
+
+<!--		<dependency>-->
+<!--			<groupId>org.scotproject.concept</groupId>-->
+<!--			<artifactId>scotproject-concept</artifactId>-->
+<!--			<version>1.0-SNAPSHOT</version>-->
+<!--		</dependency>-->
+ 
+		<dependency>
+			<groupId>uk.co.holygoat.tag.concept</groupId>
+			<artifactId>tagontology-concept</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.rdfs.wot.concept</groupId>
+			<artifactId>wot-concept</artifactId>
+			<version>0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+
+</project>

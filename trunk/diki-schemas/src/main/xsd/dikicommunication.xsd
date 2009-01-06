@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://pace-project.org/schemas/" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:pp="http://pace-project.org/schemas/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+
+	<complexType name="QueryType">
+		<sequence>
+			<element name="distance" type="int" maxOccurs="1" minOccurs="1">
+				<annotation>
+					<documentation>
+						The maximum left distance of the message that if must not exceed. This is mandatory in order to avoid recursion!
+					</documentation>
+				</annotation>
+			</element>
+			<element name="Data" type="string" maxOccurs="1" minOccurs="1">
+				<annotation>
+					<documentation>The SPARQL query String</documentation>
+				</annotation></element>
+			<element name="Recipients" type="pp:RecipientsType" maxOccurs="1" minOccurs="0"></element>
+			<element name="queryid" type="string" maxOccurs="1" minOccurs="1"></element>
+		</sequence>
+		<attribute name="ttl" type="int"></attribute>
+	</complexType>
+
+
+	<complexType name="RecipientType">
+		<simpleContent>
+			<extension base="string"></extension>
+		</simpleContent>
+	</complexType>
+
+	<element name="Query" type="pp:QueryType"></element>
+
+
+
+
+	<complexType name="RecipientsType">
+		<sequence>
+			<element name="Plain" type="pp:RecipientType" maxOccurs="unbounded" minOccurs="0"></element>
+			<element name="Hash" type="pp:RecipientType" maxOccurs="unbounded" minOccurs="0"></element>
+		</sequence>
+	</complexType>
+
+    <element name="Result" type="pp:ResponseType"></element>
+
+    <complexType name="ResponseType">
+    	<sequence>
+    		<element name="queryid" type="string" maxOccurs="1" minOccurs="1"></element>
+            <element name="totaldistance" type="int" maxOccurs="1" minOccurs="1">
+    			<annotation>
+    				<documentation>The distance when the query arrived</documentation>
+    			</annotation></element>
+            <element name="data" type="xs:anyType" maxOccurs="1" minOccurs="0"></element>
+    	</sequence>
+    </complexType>
+
+    <element name="End" type="pp:ResponseType"></element>
+</schema>

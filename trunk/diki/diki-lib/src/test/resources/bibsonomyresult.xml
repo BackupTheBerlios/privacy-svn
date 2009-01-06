@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+
+        This file is part of Diki.
+
+        Copyright (C) 2009 jtheuer
+        Please refer to the documentation for a complete list of contributors
+
+        Diki is free software: you can redistribute it and/or modify
+        it under the terms of the GNU General Public License as published by
+        the Free Software Foundation, either version 3 of the License, or
+        (at your option) any later version.
+
+        Diki is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        GNU General Public License for more details.
+
+        You should have received a copy of the GNU General Public License
+        along with Diki.  If not, see <http://www.gnu.org/licenses/>.
+
+-->
+<rdf:RDF xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/" xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<channel rdf:about="http://www.bibsonomy.org/tag/Linux">
+		<title>BibSonomy bookmarks for /tag/Linux</title>
+		<link>http://www.bibsonomy.org/rss/tag/Linux</link>
+		<description>BibSonomy RSS Feed for /tag/Linux</description>
+		<items>
+			<rdf:Seq>
+				<rdf:li rdf:resource="http://aed-dresden.de/wb/pages/linux-programme.php" />
+				<rdf:li rdf:resource="http://enterpriselinuxlog.blogs.techtarget.com/2008/03/25/linux-pros-prefer-it-generalists-to-vendor-specific-certs/" />
+				<rdf:li rdf:resource="http://www.netzwelt.de/news/76664-wuala-onlinedatenspeicher-mit-p2psystem.html" />
+				<rdf:li rdf:resource="http://linuxpoison.blogspot.com/2008/02/simple-c-program-that-will-crash-any.html" />
+
+				<rdf:li rdf:resource="http://linuxpoison.blogspot.com/2008/03/is-linus-is-real-author-of-linux.html" />
+				<rdf:li rdf:resource="http://linuxpoison.blogspot.com/2008/03/testing-firewall-rules.html" />
+				<rdf:li rdf:resource="http://sourceforge.net/projects/gscan2pdf" />
+				<rdf:li rdf:resource="http://www.linux-user.de/ausgabe/2008/03/070/index.html" />
+				<rdf:li rdf:resource="http://projekte.f4.fhtw-berlin.de/trac/s0332819-linuxtools/wiki/" />
+				<rdf:li rdf:resource="http://wiki.ubuntuusers.de/Beamer" />
+			</rdf:Seq>
+		</items>
+	</channel>
+	<item rdf:about="http://aed-dresden.de/wb/pages/linux-programme.php">
+		<title>AED Linux und Netzwerksupport - Linux Programme</title>
+		<description>Im Folgenden ist eine Auswahl von Linux-Software aufgeführt.</description>
+		<link>http://aed-dresden.de/wb/pages/linux-programme.php</link>
+		<dc:creator>bugsbunny</dc:creator>
+		<dc:date>2008-03-28T15:41:39+01:00</dc:date>
+		<dc:subject>linuxofficeprogrammesoftwareubuntu</dc:subject>
+		<content:encoded>Im Folgenden ist eine Auswahl von Linux-Software aufgeführt.</content:encoded>
+		<taxo:topics>
+			<rdf:Bag>
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/linux" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/office" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/programme" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/software" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/ubuntu" />
+			</rdf:Bag>
+		</taxo:topics>
+	</item>
+	<item rdf:about="http://enterpriselinuxlog.blogs.techtarget.com/2008/03/25/linux-pros-prefer-it-generalists-to-vendor-specific-certs/">
+		<title>IT job strategies: Vendor vs. generic certifications — Enterprise Linux Log</title>
+		<description></description>
+		<link>http://enterpriselinuxlog.blogs.techtarget.com/2008/03/25/linux-pros-prefer-it-generalists-to-vendor-specific-certs/</link>
+		<dc:creator>torstenschuenemann</dc:creator>
+		<dc:date>2008-03-27T17:46:56+01:00</dc:date>
+		<dc:subject>LW2-ArbeitLinuxOpenSource</dc:subject>
+		<content:encoded></content:encoded>
+		<taxo:topics>
+			<rdf:Bag>
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/LW2-Arbeit" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/Linux" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/OpenSource" />
+			</rdf:Bag>
+		</taxo:topics>
+	</item>
+	<item rdf:about="http://www.netzwelt.de/news/76664-wuala-onlinedatenspeicher-mit-p2psystem.html">
+		<title>Wuala: Online-Datenspeicher mit P2P-System</title>
+		<description></description>
+		<link>http://www.netzwelt.de/news/76664-wuala-onlinedatenspeicher-mit-p2psystem.html</link>
+		<dc:creator>butonic</dc:creator>
+		<dc:date>2008-03-26T23:32:15+01:00</dc:date>
+		<dc:subject>aesarticleartikellinuxnetzweltonlinep2pstoragewuala</dc:subject>
+		<content:encoded></content:encoded>
+		<taxo:topics>
+			<rdf:Bag>
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/aes" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/article" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/artikel" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/linux" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/netzwelt" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/online" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/p2p" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/storage" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/wuala" />
+			</rdf:Bag>
+		</taxo:topics>
+	</item>
+	<item rdf:about="http://linuxpoison.blogspot.com/2008/02/simple-c-program-that-will-crash-any.html">
+		<title>Simple C program that will crash any server</title>
+		<description>Simple C program that will crash any server</description>
+		<link>http://linuxpoison.blogspot.com/2008/02/simple-c-program-that-will-crash-any.html</link>
+		<dc:creator>100110111</dc:creator>
+		<dc:date>2008-03-26T14:24:40+01:00</dc:date>
+		<dc:subject>crashlinux</dc:subject>
+		<content:encoded>Simple C program that will crash any server</content:encoded>
+		<taxo:topics>
+			<rdf:Bag>
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/crash" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/linux" />
+			</rdf:Bag>
+		</taxo:topics>
+	</item>
+	<item rdf:about="http://linuxpoison.blogspot.com/2008/03/is-linus-is-real-author-of-linux.html">
+		<title>Is Linus is the real author of LINUX?</title>
+		<description>
+			“A couple of years ago this guy called Ken Brown wrote a book saying that Linus stole Linux from me… It later came out that Microsoft had paid him
+			to do this…”
+		</description>
+		<link>http://linuxpoison.blogspot.com/2008/03/is-linus-is-real-author-of-linux.html</link>
+		<dc:creator>100110111</dc:creator>
+		<dc:date>2008-03-24T14:51:26+01:00</dc:date>
+		<dc:subject>linux</dc:subject>
+		<content:encoded>
+			“A couple of years ago this guy called Ken Brown wrote a book saying that Linus stole Linux from me… It later came out that Microsoft had paid him
+			to do th&lt;span class=&#034;info&#034;&gt;...&lt;span&gt;“A couple of years ago this guy called Ken Brown wrote a book saying that Linus stole
+			Linux from me… It later came out that Microsoft had paid him to do this…”&lt;/span&gt;&lt;/span&gt;
+		</content:encoded>
+		<taxo:topics>
+			<rdf:Bag>
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/linux" />
+			</rdf:Bag>
+		</taxo:topics>
+	</item>
+	<item rdf:about="http://linuxpoison.blogspot.com/2008/03/testing-firewall-rules.html">
+		<title>Testing firewall rules</title>
+		<description>
+			Sometimes it is handy to check firewall rules without coordinating a test with the end user. For these tests, use the hping2 utility to
+			&amp;#034;spoof&amp;#034; traffic coming from the source IP address(es) used in the firewall rules.
+		</description>
+		<link>http://linuxpoison.blogspot.com/2008/03/testing-firewall-rules.html</link>
+		<dc:creator>100110111</dc:creator>
+		<dc:date>2008-03-24T14:13:36+01:00</dc:date>
+		<dc:subject>linux</dc:subject>
+		<content:encoded>
+			Sometimes it is handy to check firewall rules without coordinating a test with the end user. For these tests, use the hping2 utility to
+			&amp;#034;spoof&amp;#034; traffic com&lt;span class=&#034;info&#034;&gt;...&lt;span&gt;Sometimes it is handy to check firewall rules without
+			coordinating a test with the end user. For these tests, use the hping2 utility to &amp;#034;spoof&amp;#034; traffic coming from the source IP
+			address(es) used in the firewall rules.&lt;/span&gt;&lt;/span&gt;
+		</content:encoded>
+		<taxo:topics>
+			<rdf:Bag>
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/linux" />
+			</rdf:Bag>
+		</taxo:topics>
+	</item>
+	<item rdf:about="http://sourceforge.net/projects/gscan2pdf">
+		<title>SourceForge.net: gscan2pdf</title>
+		<description>A GUI to ease the process of producing a multipage PDF from a scan. gscan2pdf should work on almost any Linux/BSD machine.</description>
+		<link>http://sourceforge.net/projects/gscan2pdf</link>
+		<dc:creator>bugsbunny</dc:creator>
+		<dc:date>2008-03-22T15:00:18+01:00</dc:date>
+		<dc:subject>linuxpdfsanescanscan2pdfscannersourceforge.netubuntu</dc:subject>
+		<content:encoded>
+			A GUI to ease the process of producing a multipage PDF from a scan. gscan2pdf should work on almost any Linux/BSD machine.
+		</content:encoded>
+		<taxo:topics>
+			<rdf:Bag>
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/linux" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/pdf" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/sane" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/scan" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/scan2pdf" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/scanner" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/sourceforge.net" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/ubuntu" />
+			</rdf:Bag>
+		</taxo:topics>
+	</item>
+	<item rdf:about="http://www.linux-user.de/ausgabe/2008/03/070/index.html">
+		<title>LinuxUser - Das Magazin für die Praxis - LU 03/2008 - Desktopsuche</title>
+		<description></description>
+		<link>http://www.linux-user.de/ausgabe/2008/03/070/index.html</link>
+		<dc:creator>mk1298</dc:creator>
+		<dc:date>2008-03-22T11:14:06+01:00</dc:date>
+		<dc:subject>IndexierungLinuxSuchebeagledesktopsuchesearchtrackerubuntu</dc:subject>
+		<content:encoded></content:encoded>
+		<taxo:topics>
+			<rdf:Bag>
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/Indexierung" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/Linux" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/Suche" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/beagle" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/desktopsuche" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/search" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/tracker" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/ubuntu" />
+			</rdf:Bag>
+		</taxo:topics>
+	</item>
+	<item rdf:about="http://projekte.f4.fhtw-berlin.de/trac/s0332819-linuxtools/wiki/">
+		<title>linuxtools - Trac</title>
+		<description></description>
+		<link>http://projekte.f4.fhtw-berlin.de/trac/s0332819-linuxtools/wiki/</link>
+		<dc:creator>mk1298</dc:creator>
+		<dc:date>2008-03-21T12:00:35+01:00</dc:date>
+		<dc:subject>LinuxThinkPadUbuntufant60tp-fancontrol</dc:subject>
+		<content:encoded></content:encoded>
+		<taxo:topics>
+			<rdf:Bag>
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/Linux" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/ThinkPad" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/Ubuntu" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/fan" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/t60" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/tp-fancontrol" />
+			</rdf:Bag>
+		</taxo:topics>
+	</item>
+	<item rdf:about="http://wiki.ubuntuusers.de/Beamer">
+		<title>Beamer - ubuntuusers Wiki</title>
+		<description></description>
+		<link>http://wiki.ubuntuusers.de/Beamer</link>
+		<dc:creator>mk1298</dc:creator>
+		<dc:date>2008-03-20T12:04:23+01:00</dc:date>
+		<dc:subject>BeamerLaptopLinuxNotebookgrafikkartent60ubuntu</dc:subject>
+		<content:encoded></content:encoded>
+		<taxo:topics>
+			<rdf:Bag>
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/Beamer" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/Laptop" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/Linux" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/Notebook" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/grafikkarten" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/t60" />
+				<rdf:li rdf:resource="http://www.bibsonomy.org/tag/ubuntu" />
+			</rdf:Bag>
+		</taxo:topics>
+	</item>
+</rdf:RDF>

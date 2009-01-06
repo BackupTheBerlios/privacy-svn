@@ -1,0 +1,4 @@
+   * mark results with a context
+   * remove results if necessary (difficult)
+   * return context as search-result (or provide context and search upon finished?)
+   * use URIImpl as query-identifier

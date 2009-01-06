@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+        This file is part of Diki.
+
+        Copyright (C) 2009 jtheuer
+        Please refer to the documentation for a complete list of contributors
+
+        Diki is free software: you can redistribute it and/or modify
+        it under the terms of the GNU General Public License as published by
+        the Free Software Foundation, either version 3 of the License, or
+        (at your option) any later version.
+
+        Diki is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        GNU General Public License for more details.
+
+        You should have received a copy of the GNU General Public License
+        along with Diki.  If not, see <http://www.gnu.org/licenses/>.
+
+-->
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="xmpp:dikijan1@v-tml.uni-muenster.de/">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://del.icio.us/post/http://code.macournoyer.com/thin/">
+	<rdf:type rdf:resource="http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tagging"/>
+	<taggedResource xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/" rdf:resource="http://code.macournoyer.com/thin/"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://code.macournoyer.com/thin/">
+	<description xmlns="http://purl.org/dc/elements/1.1/">Thin - yet another web server Thin - yet another web server Thin - yet another web server Thin - yet another web server Thin - yet another web server Thin - yet another web server</description>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://del.icio.us/tag/linux">
+	<rdf:type rdf:resource="http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag"/>
+	<name xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/">linux</name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://del.icio.us/tag/webserver">
+	<rdf:type rdf:resource="http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag"/>
+	<name xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/">webserver</name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://del.icio.us/tag/thin">
+	<rdf:type rdf:resource="http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag"/>
+	<name xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/">thin</name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://del.icio.us/post/http://code.macournoyer.com/thin/">
+	<associatedTag xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/" rdf:resource="http://del.icio.us/tag/linux"/>
+	<associatedTag xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/" rdf:resource="http://del.icio.us/tag/thin"/>
+	<associatedTag xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/" rdf:resource="http://del.icio.us/tag/webserver"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://del.icio.us/post/http://blog.bjrn.se/2008/01/truecrypt-explained.html">
+	<rdf:type rdf:resource="http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tagging"/>
+	<taggedResource xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/" rdf:resource="http://blog.bjrn.se/2008/01/truecrypt-explained.html"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://blog.bjrn.se/2008/01/truecrypt-explained.html">
+	<description xmlns="http://purl.org/dc/elements/1.1/">blog.bjrn.se: TrueCrypt explained</description>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://del.icio.us/post/http://blog.bjrn.se/2008/01/truecrypt-explained.html">
+	<associatedTag xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/" rdf:resource="http://del.icio.us/tag/linux"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.jtheuer.de">
+	<description xmlns="http://purl.org/dc/elements/1.1/"></description>
+	<title xmlns="http://purl.org/dc/elements/1.1/">privacy in semantic web applications</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://bibsonomy.org/post/1e4b5b9efff3047f4d119b965225e444">
+	<rdf:type rdf:resource="http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tagging"/>
+	<taggedResource xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/" rdf:resource="http://www.jtheuer.de"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://bibsonomy.org/tag/linux">
+	<rdf:type rdf:resource="http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag"/>
+	<name xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/">linux</name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://bibsonomy.org/tag/privacy">
+	<rdf:type rdf:resource="http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag"/>
+	<name xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/">privacy</name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://bibsonomy.org/tag/semantic">
+	<rdf:type rdf:resource="http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag"/>
+	<name xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/">semantic</name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://bibsonomy.org/tag/web">
+	<rdf:type rdf:resource="http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag"/>
+	<name xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/">web</name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://bibsonomy.org/post/1e4b5b9efff3047f4d119b965225e444">
+	<associatedTag xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/" rdf:resource="http://bibsonomy.org/tag/semantic"/>
+	<associatedTag xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/" rdf:resource="http://bibsonomy.org/tag/linux"/>
+	<associatedTag xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/" rdf:resource="http://bibsonomy.org/tag/web"/>
+	<associatedTag xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/" rdf:resource="http://bibsonomy.org/tag/privacy"/>
+	<taggedBy xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/" rdf:resource="xmpp:dikijan1@v-tml.uni-muenster.de/"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://heise.de">
+	<title xmlns="http://purl.org/dc/elements/1.1/">Heise News</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://bibsonomy.org/post/bbf9b0339a070080a3668c9cb6158ecf">
+	<rdf:type rdf:resource="http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tagging"/>
+	<taggedResource xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/" rdf:resource="http://heise.de"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://bibsonomy.org/tag/german">
+	<rdf:type rdf:resource="http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag"/>
+	<name xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/">german</name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://bibsonomy.org/tag/it">
+	<rdf:type rdf:resource="http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag"/>
+	<name xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/">it</name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://bibsonomy.org/tag/news">
+	<rdf:type rdf:resource="http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag"/>
+	<name xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/">news</name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://bibsonomy.org/post/bbf9b0339a070080a3668c9cb6158ecf">
+	<associatedTag xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/" rdf:resource="http://bibsonomy.org/tag/news"/>
+	<associatedTag xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/" rdf:resource="http://bibsonomy.org/tag/german"/>
+	<associatedTag xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/" rdf:resource="http://bibsonomy.org/tag/it"/>
+	<taggedBy xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/" rdf:resource="xmpp:dikijan1@v-tml.uni-muenster.de/"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://heise.de">
+	<description xmlns="http://purl.org/dc/elements/1.1/">german information technology news. Including politics and open-source</description>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.slashdot.org">
+	<description xmlns="http://purl.org/dc/elements/1.1/">News for nerds, stuff that matters</description>
+	<title xmlns="http://purl.org/dc/elements/1.1/">Slashdot</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://bibsonomy.org/post/d602425a7712fc4cd7dfc2b60a79c121">
+	<rdf:type rdf:resource="http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tagging"/>
+	<taggedResource xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/" rdf:resource="http://www.slashdot.org"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://bibsonomy.org/tag/international">
+	<rdf:type rdf:resource="http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag"/>
+	<name xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/">international</name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://bibsonomy.org/tag/nerd">
+	<rdf:type rdf:resource="http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag"/>
+	<name xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/">nerd</name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://bibsonomy.org/post/d602425a7712fc4cd7dfc2b60a79c121">
+	<associatedTag xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/" rdf:resource="http://bibsonomy.org/tag/nerd"/>
+	<associatedTag xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/" rdf:resource="http://bibsonomy.org/tag/news"/>
+	<associatedTag xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/" rdf:resource="http://bibsonomy.org/tag/international"/>
+	<associatedTag xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/" rdf:resource="http://bibsonomy.org/tag/it"/>
+	<taggedBy xmlns="http://www.holygoat.co.uk/owl/redwood/0.1/tags/" rdf:resource="xmpp:dikijan1@v-tml.uni-muenster.de/"/>
+</rdf:Description>
+
+</rdf:RDF>

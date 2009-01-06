@@ -1,0 +1,32 @@
+<?xml version="1.0"?><project>
+  <parent>
+    <artifactId>diki</artifactId>
+    <groupId>de.jtheuer.diki</groupId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.jtheuer.diki</groupId>
+  <artifactId>diki-plugins</artifactId>
+  <name>diki-plugins</name>
+  <version>1.0-SNAPSHOT</version>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    
+    	<dependency>
+			<groupId>de.jtheuer.diki</groupId>
+			<artifactId>diki-lib</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>de.jtheuer.jjcomponents</groupId>
+			<artifactId>jjcomponents</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+  </dependencies>
+</project>

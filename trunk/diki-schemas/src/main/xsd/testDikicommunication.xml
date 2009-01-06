@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pp:Message xmlns:pp="http://pace-project.org/schemas/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://pace-project.org/schemas/ ./dikicommunication.xsd">
+	<pp:distance>10</pp:distance>
+	<pp:Data>
+	<xml>
+	foo
+	</xml>
+	</pp:Data>
+	<pp:Recipients>
+		<pp:Plain>foo</pp:Plain>
+		<pp:Hash>foo</pp:Hash>
+		<pp:Hash>foo</pp:Hash>
+	</pp:Recipients>
+	<pp:queryid>asdfjopsdajföosjfdojkspojkdföoasjdföo</pp:queryid>
+
+</pp:Message>

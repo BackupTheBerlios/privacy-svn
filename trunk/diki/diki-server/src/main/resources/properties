@@ -1,0 +1,16 @@
+# set version for properties file version check. do not change
+diki.version=SNAPSHOT
+
+# xmpp credentials
+xmpp.username=dikijan3
+xmpp.password=dikijan3
+xmpp.host=v-tml.uni-muenster.de
+
+# sesame database
+database.storagetype=ram
+
+rdfimporter.file=src/main/resources/rdfresult1.xml
+
+bibsonomy.username=jtheuer
+bibsonomy.apikey=e6cee91ac39a632bf975483646613411
+bibsonomy.results=ALL

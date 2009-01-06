@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <jnlp spec="1.0+"
+    codebase="http://www.pace-project.org/jnlp/"
+    href="bouncycastle.jnlp">
+    <information>
+       <title>Java Crypto</title>
+       <vendor>Sun MicroSystems, Inc.</vendor>
+       <offline-allowed/>
+    </information>
+    <security>
+      <all-permissions/>
+    </security>
+    <resources>
+      <jar href="pgp/bcpg-jdk16-141.jar"/>
+      <jar href="pgp/bcprov-jdk16-141.jar"/>
+    </resources>
+    <component-desc/>
+  </jnlp>

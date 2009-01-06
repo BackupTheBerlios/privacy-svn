@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>de.ifgi</groupId>
+		<artifactId>ifgi-master</artifactId>
+		<version>1.0</version>
+	</parent>
+	<groupId>de.jtheuer.diki</groupId>
+	<artifactId>diki</artifactId>
+	<packaging>pom</packaging>
+	<name>diki</name>
+	<version>1.0-SNAPSHOT</version>
+	<url>http://maven.apache.org</url>
+
+	<scm>
+		<developerConnection>
+			scm:svn:svn+ssh://cvsifgi/export/svn/ThesisHeuer/trunk/diki
+		</developerConnection>
+	</scm>
+
+	<build>
+		<plugins>
+			<plugin>
+				<inherited>false</inherited>
+				<groupId>com.google.code.maven-license-plugin
+				</groupId>
+				<artifactId>maven-license-plugin</artifactId>
+				<version>1.4.0</version>
+				<configuration>
+					<header>${basedir}/src/etc/header.txt</header>
+					<quiet>true</quiet>
+					<failIfMissing>true</failIfMissing>
+					<aggregate>true</aggregate>
+					<excludes>
+						<exclude>**/target/**</exclude>
+						<exclude>*.png</exclude>
+					</excludes>
+					<useDefaultExcludes>true</useDefaultExcludes>
+					<useDefaultMapping>true</useDefaultMapping>
+					<properties>
+						<year>2009</year>
+					</properties>
+					<encoding>UTF-8</encoding>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>check</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>keytool-maven-plugin</artifactId>
+				<configuration>
+					<keystore>/home/jtheuer/.m2/diki.key
+					</keystore>
+					<dname>cn=www.pace-project.org,
+						ou=Institute for Geoinformatics, L=Muenster,
+						ST=Nordrhein-Westfalen, o=University of Muenster, c=DE</dname>
+					<keypass>default</keypass>
+					<storepass>default</storepass>
+					<alias>diki.key</alias>
+					<validity>3650</validity>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<modules>
+		<module>diki-lib</module>
+		<module>diki-gui</module>
+		<module>diki-plugins</module>
+		<module>diki-server</module>
+		<module>sesame-extensions</module>
+	</modules>
+
+</project>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="sesame-extensions/src/main/java"/>
+	<classpathentry kind="src" path="sesame-extensions/src/test/java"/>
+	<classpathentry kind="src" path="diki-lib/src/main/java"/>
+	<classpathentry kind="src" path="diki-lib/src/delicious/java"/>
+	<classpathentry kind="src" path="diki-lib/src/test/java"/>
+	<classpathentry excluding="**" kind="src" output="diki-lib/src/test/resources" path="diki-lib/src/test/resources"/>
+	<classpathentry kind="src" path="diki-plugins/src/main/java"/>
+	<classpathentry kind="src" path="diki-plugins/src/test/java"/>
+	<classpathentry kind="src" path="diki-gui/src/main/java"/>
+	<classpathentry kind="src" path="diki-gui/src/test/java"/>
+	<classpathentry kind="src" path="diki-gui/src/main/resources"/>
+	<classpathentry kind="src" path="diki-server/src/main/java"/>
+	<classpathentry excluding="**" kind="src" output="diki-server/src/main/resources" path="diki-server/src/main/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.maven.ide.eclipse.MAVEN2_CLASSPATH_CONTAINER/modules"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

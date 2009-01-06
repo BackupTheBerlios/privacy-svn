@@ -1,0 +1,7 @@
+Query from GUI:
+
+	concept query	-> sesame	-> direct entity response
+					-> http		-> temporary entity response
+					
+	gate query		-> sesame	-> RDFWriter
+					-> http		-> temporary repository
